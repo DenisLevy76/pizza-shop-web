@@ -1,9 +1,9 @@
 import Image from 'next/image'
 
+import { ThemeToggle } from '@/components/theme-toggle'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
-import { ThemeToggle } from '@/components/ui/theme-toggle'
 
 const LogIn = () => (
   <div className="w-full lg:grid lg:min-h-[100vh] lg:grid-cols-2">
