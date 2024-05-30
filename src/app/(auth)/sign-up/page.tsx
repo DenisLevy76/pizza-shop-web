@@ -98,6 +98,11 @@ const LogIn = () => {
             >
               Já possui uma conta? Click aqui
             </Link>
+            <p className="max-w-80 text-center text-sm">
+              Ao continuar, você concorda com nossos{' '}
+              <span className="underline">termos de serviço</span> e{' '}
+              <span className="underline">políticas de privacidade</span>
+            </p>
           </form>
         </div>
       </div>
