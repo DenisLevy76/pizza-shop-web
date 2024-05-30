@@ -1,6 +1,7 @@
 import { Home, Pizza, UtensilsCrossed } from 'lucide-react'
 import Link from 'next/link'
 
+import { PerfilMenu } from './perfil-menu'
 import { ThemeToggle } from './theme-toggle'
 import { Button } from './ui/button'
 
@@ -26,7 +27,10 @@ export const Header: React.FC = () => {
           </li>
         </ul>
       </nav>
-      <ThemeToggle />
+      <div className="flex gap-2">
+        <PerfilMenu />
+        <ThemeToggle />
+      </div>
     </header>
   )
 }
