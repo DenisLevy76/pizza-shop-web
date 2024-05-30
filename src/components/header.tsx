@@ -13,14 +13,14 @@ export const Header: React.FC = () => {
         <ul className="flex gap-4">
           <li>
             <Button variant="ghost" asChild>
-              <Link href="#" className="space-x-2">
+              <Link href="/" className="space-x-2">
                 <Home className="h-4 w-4" /> <span>Inicio</span>
               </Link>
             </Button>
           </li>
           <li>
             <Button variant="ghost" asChild>
-              <Link href="#" className="space-x-2">
+              <Link href="/pedidos" className="space-x-2">
                 <UtensilsCrossed className="h-4 w-4" /> <span>Pedidos</span>
               </Link>
             </Button>
